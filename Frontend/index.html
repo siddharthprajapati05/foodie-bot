@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mira Food Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🍴 Mira Food Store</h1>
+    <p>Delicious food, delivered fast!</p>
+  </header>
+
+  <main>
+    <section class="menu">
+      <h2>Our Specials</h2>
+      <div class="food-grid">
+
+        <div class="food-item">
+          <img src="https://t4.ftcdn.net/jpg/01/89/45/21/360_F_189452136_gJBG4ZRXY9NnZZCGV2s8QhObmpeerJTO.jpg" alt="Dosa">
+          <p>Dosa - ₹80</p>
+        </div>
+
+        <div class="food-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAWlgxIDswRzfhjN4ynaTaDpwx23wjlkxrmA&s" alt="Rava Dosa">
+          <p>Rava Dosa - ₹100</p>
+        </div>
+
+        <div class="food-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW6vtSHUBVpmoqAHiGGD2S3rJ2apgaDiTeCw&s" alt="Samosa">
+          <p>Samosa - ₹30</p>
+        </div>
+
+        <div class="food-item">
+          <img src="https://media-assets.swiggy.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/RX_THUMBNAIL/IMAGES/VENDOR/2024/6/26/ebdf270d-8e2b-43de-ae89-03bdfd6ece46_155792.JPG" alt="Pizza">
+          <p>Pizza - ₹250</p>
+        </div>
+
+        <div class="food-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrwum_fE01g0yFrHjdBDo0jUBwRKW7RFyPoA&s" alt="Pav Bhaji">
+          <p>Pav Bhaji - ₹120</p>
+        </div>
+
+        <div class="food-item">
+          <img src="https://lentillovingfamily.com/wp-content/uploads/2025/05/mango-lassi-2.jpg" alt="Mango Lassi">
+          <p>Mango Lassi - ₹70</p>
+        </div>
+
+        <!-- New Items -->
+        <div class="food-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxOYg-4m-OfPgwL1VIFfR4qK5NTWNvUuuJsw&s" alt="Chole Bhature">
+          <p>Chole Bhature - ₹150</p>
+        </div>
+
+        <div class="food-item">
+          <img src="https://www.indianveggiedelight.com/wp-content/uploads/2020/04/veg-biryani-instant-pot.jpg">
+          <p>Veg Biryani - ₹200</p>
+        </div>
+
+        <div class="food-item">
+          <img src="https://simpleindianrecipes.com/portals/0/sirimages/Vada-Pav-M.jpg">
+          <p>Vada Pav - ₹40</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Dialogflow Chatbot -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="Mira-Food-Delivery"
+    agent-id="29d463cc-660a-45ec-bd02-9f7a9922f0f4"
+    language-code="en"
+  ></df-messenger>
+</body>
+</html>
